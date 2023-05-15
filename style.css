@@ -1,10 +1,10 @@
 .QLineEdit {
-                height: 30px;
-                font-size: 20px;
-                font-family: 'Open Sans';
-                border: none;
-                border-bottom: 1px solid black;
-            }
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    border: none;
+    border-bottom: 1px solid black;
+}
 .QTextEdit {
     font-size: 20px;
     font-family: 'Open Sans';
