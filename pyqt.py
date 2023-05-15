@@ -59,6 +59,8 @@ class MainWindow(QMainWindow):
         widget = QWidget()
         widget.setLayout(grid)
         self.setCentralWidget(widget)
+        with open("style.css") as style:
+            self.setStyleSheet(style.read())
 
 app = QApplication(sys.argv)
 window = MainWindow()
